@@ -1,0 +1,59 @@
+/* body {
+    background-color: lightblue;
+} */
+
+header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+}
+
+nav li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+  }
+
+  .disabled {
+    color: gray;
+  }
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+  }
+
+.parent div:first-child {
+    color: red;
+  }
+
+.parent div:nth-child(3) {
+    color: blue;
+}
+
+.parent h4:nth-child(2) {
+    background-color: red;
+}
+
+.parent h4:last-child {
+    background-color: blue;
+}
+
+/* .grandparent h4:last-child {
+    border-radius: 15px;
+    border-width: 1px;
+    border-color: black;
+} */
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input {
+    height: 25px;
+}
